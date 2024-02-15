@@ -1,0 +1,11 @@
+
+/* Using SCSS variables to store breakpoints */
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) { // If it's bigger than tablet
+    ion-grid {
+        max-width: 100vh;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) { // If it's smaller than tablet
+}
